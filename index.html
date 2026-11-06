@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Livraria Horizonte — catálogo de livros com layout responsivo usando CSS Grid e Flexbox.">
+  <title>Livraria Horizonte — Catálogo</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topo">
+    <a class="marca" href="index.html" aria-label="Livraria Horizonte — início">
+      <span class="marca-icone" aria-hidden="true">H</span>
+      <span class="marca-texto">
+        <strong>Livraria Horizonte</strong>
+        <small>livros que abrem caminhos</small>
+      </span>
+    </a>
+
+    <nav class="links" aria-label="Navegação principal">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main class="principal" id="conteudo">
+
+    <section class="hero" aria-labelledby="titulo-hero">
+      <p class="hero-etiqueta">Seleção da semana</p>
+      <h1 id="titulo-hero">Histórias que cabem em qualquer tela</h1>
+      <p class="hero-texto">
+        Uma curadoria de leituras para todos os gostos. Navegue pelo catálogo,
+        escolha seu próximo livro e leve a livraria com você.
+      </p>
+      <div class="hero-acoes">
+        <a class="btn btn-principal" href="#catalogo">Ver catálogo</a>
+        <a class="btn btn-fantasma" href="#sobre">Conhecer a livraria</a>
+      </div>
+    </section>
+
+    <article class="cartao">
+      <div class="cartao-topo">
+        <h2>O Jardim das Horas</h2>
+        <span class="preco">R$ 54</span>
+      </div>
+      <p class="categoria">Romance</p>
+      <p class="cartao-texto">Uma saga de família contada entre estações, memórias e recomeços.</p>
+      <button class="btn btn-adicionar" type="button">Adicionar à cesta</button>
+    </article>
+
+    <article class="cartao">
+      <div class="cartao-topo">
+        <h2>Código Limpo</h2>
+        <span class="preco">R$ 89</span>
+      </div>
+      <p class="categoria">Tecnologia</p>
+      <p class="cartao-texto">Princípios práticos para escrever software legível e fácil de manter.</p>
+      <button class="btn btn-adicionar" type="button">Adicionar à cesta</button>
+    </article>
+
+    <article class="cartao">
+      <div class="cartao-topo">
+        <h2>Maré de Dentro</h2>
+        <span class="preco">R$ 42</span>
+      </div>
+      <p class="categoria">Poesia</p>
+      <p class="cartao-texto">Versos curtos sobre marés, silêncios e tudo o que nos move.</p>
+      <button class="btn btn-adicionar" type="button">Adicionar à cesta</button>
+    </article>
+
+    <article class="cartao">
+      <div class="cartao-topo">
+        <h2>A Cidade e o Vento</h2>
+        <span class="preco">R$ 67</span>
+      </div>
+      <p class="categoria">Ficção</p>
+      <p class="cartao-texto">Um mistério urbano que cresce a cada esquina e a cada página.</p>
+      <button class="btn btn-adicionar" type="button">Adicionar à cesta</button>
+    </article>
+
+    <article class="cartao">
+      <div class="cartao-topo">
+        <h2>Cozinha de Afeto</h2>
+        <span class="preco">R$ 58</span>
+      </div>
+      <p class="categoria">Gastronomia</p>
+      <p class="cartao-texto">Receitas simples para reunir gente ao redor da mesa.</p>
+      <button class="btn btn-adicionar" type="button">Adicionar à cesta</button>
+    </article>
+
+    <article class="cartao">
+      <div class="cartao-topo">
+        <h2>Pequenos Exploradores</h2>
+        <span class="preco">R$ 39</span>
+      </div>
+      <p class="categoria">Infantil</p>
+      <p class="cartao-texto">Aventuras ilustradas para despertar a curiosidade das crianças.</p>
+      <button class="btn btn-adicionar" type="button">Adicionar à cesta</button>
+    </article>
+
+    <section class="sobre" id="sobre" aria-labelledby="titulo-sobre">
+      <div class="sobre-texto">
+        <h2 id="titulo-sobre">Uma livraria de bairro, agora também na tela</h2>
+        <p>
+          Desde 2012, a Horizonte seleciona títulos com cuidado e conversa com quem
+          lê. A loja física continua na mesma esquina — e o catálogo online foi feito
+          para funcionar bem em qualquer dispositivo.
+        </p>
+      </div>
+      <ul class="numeros" aria-label="Números da livraria">
+        <li><strong>12</strong><span>anos de histórias</span></li>
+        <li><strong>+4 mil</strong><span>títulos no acervo</span></li>
+        <li><strong>3</strong><span>clubes de leitura</span></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="rodape" id="contato">
+    <div class="rodape-nav" aria-label="Links do rodapé">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </div>
+    <p class="rodape-info">
+      Rua das Letras, 42 · contato@livrariahorizonte.com.br
+    </p>
+    <p class="rodape-base">© 2026 Livraria Horizonte. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
